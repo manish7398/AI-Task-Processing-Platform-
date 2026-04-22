@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yourusername/mern-infrastructure
-    targetRevision: main
+    repoURL: https://github.com/manish7398/AI-Task-Processing-Platform-.git
+    targetRevision: mern-infra
     path: k8s
   destination:
     server: https://kubernetes.default.svc
