@@ -6,7 +6,6 @@ namespace: mern-ai-tasks
 resources:
   - namespace.yaml
   - configmap.yaml
-  - secrets.yaml
   - redis.yaml
   - backend.yaml
   - frontend.yaml
