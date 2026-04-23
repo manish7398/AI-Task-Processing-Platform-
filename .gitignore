@@ -29,3 +29,6 @@ npm-debug.log*
 # Misc
 *.tgz
 .cache/
+
+# Kubernetes secrets (should not be committed)
+k8s/secrets.yaml
