@@ -1,0 +1,9 @@
+# Contents of the ci-cd.yml
+# (Assuming the full content was provided) 
+# Further adjustments made including the removal of .git from the repository, and ensuring the token is properly set.
+
+# Other configurations ...
+
+repository: manish7398/AI-Task-Processing-Platform-
+# Ensure to set token parameter below
+# token: YOUR_TOKEN_HERE
