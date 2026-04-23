@@ -1,12 +1,3 @@
-FROM node:20-alpine AS builder
-
-WORKDIR /app
-
-COPY package*.json ./
-RUN npm ci
-
-COPY src/ ./src/
-
 FROM node:20-alpine
 
 WORKDIR /app
@@ -14,7 +5,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci --production
 
-COPY --from=builder /app/src/ ./src/
+COPY backend/src/ ./src/
 
 USER node
 
