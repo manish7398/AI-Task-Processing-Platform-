@@ -2,10 +2,10 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY backend/package*.json ./
+COPY package*.json ./
 RUN npm ci --production
 
-COPY backend/src/ ./src/
+COPY src/ ./src/
 
 USER node
 
